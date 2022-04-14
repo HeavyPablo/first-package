@@ -1,0 +1,17 @@
+{
+    "name": "heavypablo/first-package",
+    "description": "This is my first package",
+    "autoload": {
+        "psr-4": {
+            "Heavypablo\\FirstPackage\\": "src/"
+        },
+        "files":["src/helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Mario Bustos",
+            "email": "pabloasd3@gmail.com"
+        }
+    ],
+    "require": {}
+}
